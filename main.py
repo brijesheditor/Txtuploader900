@@ -56,7 +56,7 @@ keyboard = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="👨🏻‍💻 Devloper",
-                url="https://t.me/EX_DOLPHIN",
+                url="https://t.me/Oye_brijesh",
             ),
             InlineKeyboardButton(
                 text="❣️ GITHUB",
@@ -66,7 +66,7 @@ keyboard = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="🪄 Updates Channel",
-                url="https://t.me/EX_DOLPHIN",
+                url="https://t.me/+qutXY5xbN0I4OWY1",
             ),
             
         ],
@@ -80,7 +80,7 @@ Busy = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="👨🏻‍💻 Devloper",
-                url="https://t.me/EX_DOLPHIN",
+                url="https://t.me/Oye_brijesh",
             ),
             InlineKeyboardButton(
                 text="❣️ GITHUB",
@@ -90,7 +90,7 @@ Busy = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="Join to Check My Status ",
-                url="https://t.me/EX_DOLPHIN",
+                url="https://t.me/+qutXY5xbN0I4OWY1",
             ),
             
         ],
@@ -131,7 +131,7 @@ async def start_command(bot: Client, message: Message):
     
     
     # Caption for the image
-    caption = f"**𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫  👋!\n\n➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ♥️\n➠ Can Extract Videos & Pdf Form Your Text File and Upload to Telegram\n\n➠ 𝐔𝐬𝐞 /drm 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐫𝐨𝐦 𝐓𝐗𝐓 𝐅𝐢𝐥𝐞  \n\n➠𝐌𝐚𝐝𝐞 𝐁𝐲: @EX_DOLPHIN **\n"
+    caption = f"**𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫  👋!\n\n➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ♥️\n➠ Can Extract Videos & Pdf Form Your Text File and Upload to Telegram\n\n➠ 𝐔𝐬𝐞 /drm 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐫𝐨𝐦 𝐓𝐗𝐓 𝐅𝐢𝐥𝐞  \n\n➠𝐌𝐚𝐝𝐞 𝐁𝐲: @Oye_brijesh **\n"
     
     # Send the image with the caption
     await bot.send_photo(
@@ -145,7 +145,7 @@ async def start_command(bot: Client, message: Message):
 async def run_bot(bot: Client, m: Message):
     user_id = m.from_user.id
     if user_id not in auth_users:
-        await m.reply_text("**HEY BUDDY THIS IS ONLY FOR MY ADMINS TO USE THIS CONATCH MY DEV : @EX_DOLPHIN  **")
+        await m.reply_text("**HEY BUDDY THIS IS ONLY FOR MY ADMINS TO USE THIS CONATCH MY DEV : @Oye_brijesh  **")
     else:
         editable = await m.reply_text(" Send Your HTML file\n")
         input: Message = await bot.listen(editable.chat.id)
@@ -252,7 +252,7 @@ async def account_login(bot: Client, m: Message):
             return
     else:
         
-        editable = await m.reply_text(f"**➠ 𝐒𝐞𝐧𝐝 𝐌𝐞 𝐘𝐨𝐮𝐫 𝐓𝐗𝐓 𝐅𝐢𝐥𝐞 𝐢𝐧 𝐀 𝐏𝐫𝐨𝐩𝐞𝐫 𝐖𝐚𝐲 \n\n➠ TXT FORMAT : LINK : URL \n➠ 𝐌𝐨𝐝𝐢𝐟𝐢𝐞𝐝 𝐁𝐲:  @EX_DOLPHIN **")
+        editable = await m.reply_text(f"**➠ 𝐒𝐞𝐧𝐝 𝐌𝐞 𝐘𝐨𝐮𝐫 𝐓𝐗𝐓 𝐅𝐢𝐥𝐞 𝐢𝐧 𝐀 𝐏𝐫𝐨𝐩𝐞𝐫 𝐖𝐚𝐲 \n\n➠ TXT FORMAT : LINK : URL \n➠ 𝐌𝐨𝐝𝐢𝐟𝐢𝐞𝐝 𝐁𝐲:  @Oye_brijesh **")
         input: Message = await bot.listen(editable.chat.id)
         editable = await editable.edit(f"**⚙️PROCESSING INPUT.......**")
 
@@ -297,7 +297,7 @@ async def account_login(bot: Client, m: Message):
                     pdfcount += 1 
                 else:
                     videocount += 1
-    await editable.edit(f"**Total links found are : {len(links)}\n┃\n┠ Total Video Count : {videocount}\n┠ Total Pdf Count: {pdfcount}  \n┠ Send From where you want to download initial is  : `1` \n┃\n┠ Send `stop` If don't want to Contine \n┖ Bot By : @ITS_NOT_ROMEO**" )
+    await editable.edit(f"**Total links found are : {len(links)}\n┃\n┠ Total Video Count : {videocount}\n┠ Total Pdf Count: {pdfcount}  \n┠ Send From where you want to download initial is  : `1` \n┃\n┠ Send `stop` If don't want to Contine \n┖ Bot By : 𝄟✮͢🦋⃟≛⃝𝑩𝕣ΐ𝕛℮𝚜Ꮒ✮⃝🩷**" )
     input0: Message = await bot.listen(editable.chat.id)
     raw_text = input0.text
     await input0.delete(True)
@@ -497,7 +497,7 @@ async def account_login(bot: Client, m: Message):
                         continue
 
                 else:
-                    prog = await m.reply_text(f"📥 **Downloading **\n\n**➭ Count » {str(count).zfill(3)} **\n**➭ Video Name » ** `{name}`\n**➭ Quality** » `{raw_text2}`\n**➭ Video Url »** `{url}`\n**➭ Thumbnail »** `{input6.text}` \n\n✨ **Bot Made by @EX_DOLPHIN**\n**━━━━━━━✦✗✦━━━━━━━**")
+                    prog = await m.reply_text(f"📥 **Downloading **\n\n**➭ Count » {str(count).zfill(3)} **\n**➭ Video Name » ** `{name}`\n**➭ Quality** » `{raw_text2}`\n**➭ Video Url »** `{url}`\n**➭ Thumbnail »** `{input6.text}` \n\n✨ **Bot Made by 𝄟✮͢🦋⃟≛⃝𝑩𝕣ΐ𝕛℮𝚜Ꮒ✮⃝🩷**\n**━━━━━━━✦✗✦━━━━━━━**")
                     time.sleep(2)
                     res_file = await helper.drm_download_video(url,quality, name,key)
                     filename = res_file
